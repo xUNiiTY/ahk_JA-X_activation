@@ -163,14 +163,14 @@ if !(Zentrale1 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode1:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left 
             Sleep, 400
         }
@@ -230,14 +230,14 @@ if !(Zentrale2 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode2:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -298,14 +298,14 @@ if !(Zentrale3 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode3:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -366,14 +366,14 @@ if !(Zentrale4 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode4:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -434,14 +434,14 @@ if !(Zentrale5 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode5:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -502,14 +502,14 @@ if !(Zentrale6 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode6:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -570,14 +570,14 @@ if !(Zentrale7 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode7:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -638,14 +638,14 @@ if !(Zentrale8 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode8:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -706,14 +706,14 @@ if !(Zentrale9 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode9:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -774,14 +774,14 @@ if !(Zentrale10 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode10:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -842,14 +842,14 @@ if !(Zentrale11 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode11:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -910,14 +910,14 @@ if !(Zentrale12 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode12:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -978,14 +978,14 @@ if !(Zentrale13 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode13:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -1046,14 +1046,14 @@ if !(Zentrale14 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode14:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -1114,14 +1114,14 @@ if !(Zentrale15 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode15:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -1182,14 +1182,14 @@ if !(Zentrale16 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode16:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -1250,14 +1250,14 @@ if !(Zentrale17 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode17:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -1318,14 +1318,14 @@ if !(Zentrale18 = "")
             
             
             WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-            MouseMove, 1261, 635
+            MouseMove, 933, 620
             MouseClick, left
             MouseClick, left
             Send ^c
             ClipWait
             Zentralencode18:=clipboard
             Sleep, 300
-            Mousemove 1559, 581
+            Mousemove 1240, 570
             Mouseclick left
             Sleep, 400
         }
@@ -1385,7 +1385,7 @@ IfMsgBox, Yes
         if WinExist("P-touch Editor - [Zentralencode]")
         {
             WinActivate, P-touch Editor - [Zentralencode],
-            MouseMove, 481, 291
+            MouseMove, 451, 271
             Sleep, 300
             MouseClick, left
             MouseClick, left
@@ -1409,7 +1409,7 @@ IfMsgBox, Yes
             MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
             IfMsgBox, Yes
             {
-                Run, C:\USERS\Lager\Zentralencode.lbx
+                Run, C:\USERS\NW\Zentralencode.lbx
                 goto savepoint2_1
             }
             IfMsgBox, No
@@ -1436,7 +1436,7 @@ IfMsgBox, Yes
         if WinExist("P-touch Editor - [Zentralencode]")
         {
             WinActivate, P-touch Editor - [Zentralencode],
-            MouseMove, 481, 291
+            MouseMove, 451, 271
             Sleep, 300
             MouseClick, left
             MouseClick, left
@@ -1460,7 +1460,7 @@ IfMsgBox, Yes
             MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
             IfMsgBox, Yes
             {
-                Run, C:\USERS\Lager\Zentralencode.lbx
+                Run, C:\USERS\NW\Zentralencode.lbx
                 goto savepoint2_2
             }
             IfMsgBox, No
@@ -1487,7 +1487,7 @@ IfMsgBox, Yes
         if WinExist("P-touch Editor - [Zentralencode]")
         {
             WinActivate, P-touch Editor - [Zentralencode],
-            MouseMove, 481, 291
+            MouseMove, 451, 271
             Sleep, 300
             MouseClick, left
             MouseClick, left
@@ -1511,7 +1511,7 @@ IfMsgBox, Yes
             MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
             IfMsgBox, Yes
             {
-                Run, C:\USERS\Lager\Zentralencode.lbx
+                Run, C:\USERS\NW\Zentralencode.lbx
                 goto savepoint2_3
             }
             IfMsgBox, No
@@ -1538,7 +1538,7 @@ IfMsgBox, Yes
         if WinExist("P-touch Editor - [Zentralencode]")
         {
             WinActivate, P-touch Editor - [Zentralencode],
-            MouseMove, 481, 291
+            MouseMove, 451, 271
             Sleep, 300
             MouseClick, left
             MouseClick, left
@@ -1562,7 +1562,7 @@ IfMsgBox, Yes
             MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
             IfMsgBox, Yes
             {
-                Run, C:\USERS\Lager\Zentralencode.lbx
+                Run, C:\USERS\NW\Zentralencode.lbx
                 goto savepoint2_4
             }
             IfMsgBox, No
@@ -1589,7 +1589,7 @@ IfMsgBox, Yes
         if WinExist("P-touch Editor - [Zentralencode]")
         {
             WinActivate, P-touch Editor - [Zentralencode],
-            MouseMove, 481, 291
+            MouseMove, 451, 271
             Sleep, 300
             MouseClick, left
             MouseClick, left
@@ -1613,7 +1613,7 @@ IfMsgBox, Yes
             MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
             IfMsgBox, Yes
             {
-                Run, C:\USERS\Lager\Zentralencode.lbx
+                Run, C:\USERS\NW\Zentralencode.lbx
                 goto savepoint2_5
             }
             IfMsgBox, No
@@ -1640,7 +1640,7 @@ IfMsgBox, Yes
         if WinExist("P-touch Editor - [Zentralencode]")
         {
             WinActivate, P-touch Editor - [Zentralencode],
-            MouseMove, 481, 291
+            MouseMove, 451, 271
             Sleep, 300
             MouseClick, left
             MouseClick, left
@@ -1664,7 +1664,7 @@ IfMsgBox, Yes
             MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
             IfMsgBox, Yes
             {
-                Run, C:\USERS\Lager\Zentralencode.lbx
+                Run, C:\USERS\NW\Zentralencode.lbx
                 goto savepoint2_6
             }
             IfMsgBox, No
@@ -1691,7 +1691,7 @@ IfMsgBox, Yes
         if WinExist("P-touch Editor - [Zentralencode]")
         {
             WinActivate, P-touch Editor - [Zentralencode],
-            MouseMove, 481, 291
+            MouseMove, 451, 271
             Sleep, 300
             MouseClick, left
             MouseClick, left
@@ -1715,7 +1715,7 @@ IfMsgBox, Yes
             MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
             IfMsgBox, Yes
             {
-                Run, C:\USERS\Lager\Zentralencode.lbx
+                Run, C:\USERS\NW\Zentralencode.lbx
                 goto savepoint2_7
             }
             IfMsgBox, No
@@ -1742,12 +1742,12 @@ IfMsgBox, Yes
         if WinExist("P-touch Editor - [Zentralencode]")
         {
             WinActivate, P-touch Editor - [Zentralencode],
-            MouseMove, 481, 291
+            MouseMove, 451, 271
             Sleep, 300
             MouseClick, left
             MouseClick, left
             Sleep, 300
-            Send %Zentralencode2%
+            Send %Zentralencode8%
 
 
             ;Print
@@ -1767,7 +1767,518 @@ IfMsgBox, Yes
             MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
             IfMsgBox, Yes
             {
-                Run, C:\USERS\Lager\Zentralencode.lbx
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+
+    if !(Zentralencode9 = "")
+    {
+        savepoint2_9:
+        msgbox,0,Zentrale9 Zentralencode 9 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode9 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode9%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+    if !(Zentralencode10 = "")
+    {
+        savepoint2_10:
+        msgbox,0,Zentrale9 Zentralencode 10 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode10 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode10%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+    if !(Zentralencode11 = "")
+    {
+        savepoint2_11:
+        msgbox,0,Zentrale9 Zentralencode 11 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode11 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode11%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+    if !(Zentralencode12 = "")
+    {
+        savepoint2_12:
+        msgbox,0,Zentrale9 Zentralencode 12 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode12 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode12%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+    if !(Zentralencode13 = "")
+    {
+        savepoint2_13:
+        msgbox,0,Zentrale9 Zentralencode 13 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode13 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode13%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+    if !(Zentralencode14 = "")
+    {
+        savepoint2_14:
+        msgbox,0,Zentrale14 Zentralencode 14 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode14 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode14%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+    if !(Zentralencode15 = "")
+    {
+        savepoint2_15:
+        msgbox,0,Zentrale15 Zentralencode 15 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode15 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode15%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+    if !(Zentralencode16 = "")
+    {
+        savepoint2_16:
+        msgbox,0,Zentrale16 Zentralencode 16 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode16 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode16%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+    if !(Zentralencode17 = "")
+    {
+        savepoint2_17:
+        msgbox,0,Zentrale17 Zentralencode 17 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode17 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode17%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
+                goto savepoint2_8
+            }
+            IfMsgBox, No
+            {
+                MsgBox, 0, Hinweis!, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+                return
+            }
+        }
+    }
+
+
+    if !(Zentralencode18 = "")
+    {
+        savepoint2_18:
+        msgbox,0,Zentrale18 Zentralencode 18 wird gedruckt
+    }
+
+
+
+    if !(Zentralencode18 = "")
+    {
+        ;Check if P-Touch Editior is still active
+        if WinExist("P-touch Editor - [Zentralencode]")
+        {
+            WinActivate, P-touch Editor - [Zentralencode],
+            MouseMove, 451, 271
+            Sleep, 300
+            MouseClick, left
+            MouseClick, left
+            Sleep, 300
+            Send %Zentralencode18%
+
+
+            ;Print
+            Sleep, 300
+            Send !d
+            Send d
+            Sleep, 100
+            Send {Enter}
+
+            ;wait until printing is finished
+            WinWait, Brother PT-P700
+            WinWaitClose, Brother PT-P700
+
+        }
+        Else
+        {
+            MsgBox, 4, Fehler, P-Touch Editor nicht gefunden | Soll die P-Touch Datei gestartet werden?
+            IfMsgBox, Yes
+            {
+                Run, C:\USERS\NW\Zentralencode.lbx
                 goto savepoint2_8
             }
             IfMsgBox, No
@@ -1778,6 +2289,7 @@ IfMsgBox, Yes
         }
     }
 }
+
 
 
 
