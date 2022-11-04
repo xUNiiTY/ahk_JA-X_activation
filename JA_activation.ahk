@@ -2,10 +2,9 @@
 ;Script Beta Version 0.3.0 | 03.11.22
 ;********************************************************************************************************************************
 
-;color ist ne variable 
 ;wenn codes gedruckt werden lehre überspringen
-;
-;
+;anpassen an FULLHD
+;Anpassen an 18 Zentralen!!!! f that
 ;
 ;
 ;
@@ -34,7 +33,7 @@ if !WinExist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY") or !WinEx
     
     IfMsgBox, No
     {
-        MsgBox, 0, Warnung, Startup-Sequenz wurde angehalten | Script trotzdem aktiv!, 3
+        MsgBox, 0, Warnung, Startup-Sequenz wurde angehalten | Script trotzdem aktiv!,
         sleep, 3
         return
     }
@@ -74,9 +73,49 @@ Goto, getkey
 Inputbox,Zentrale7, SN Eingabe, Seriennummer eingeben:
 if (Zentrale7 = "")
 Goto, getkey
-
+ 
 Inputbox,Zentrale8, SN Eingabe, Seriennummer eingeben:
 if (Zentrale8 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale9, SN Eingabe, Seriennummer eingeben:
+if (Zentrale9 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale10, SN Eingabe, Seriennummer eingeben:
+if (Zentrale10 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale11, SN Eingabe, Seriennummer eingeben:
+if (Zentrale11 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale12, SN Eingabe, Seriennummer eingeben:
+if (Zentrale12 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale13, SN Eingabe, Seriennummer eingeben:
+if (Zentrale13 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale14, SN Eingabe, Seriennummer eingeben:
+if (Zentrale14 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale15, SN Eingabe, Seriennummer eingeben:
+if (Zentrale15 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale16, SN Eingabe, Seriennummer eingeben:
+if (Zentrale16 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale17, SN Eingabe, Seriennummer eingeben:
+if (Zentrale17 = "")
+Goto, getkey
+ 
+Inputbox,Zentrale18, SN Eingabe, Seriennummer eingeben:
+if (Zentrale18 = "")
 Goto, getkey
 
 ;............................................................
@@ -129,7 +168,7 @@ if !(Zentrale1 = "")
             Zentralencode1:=clipboard
             Sleep, 300
             Mousemove 1559, 581
-            Mouseclick left
+            Mouseclick left 
             Sleep, 400
         }
     }        
@@ -628,6 +667,687 @@ if !(Zentrale8 = "")
 
 
 
+if !(Zentrale9 = "")
+{
+    savepoint9:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale9%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color9 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color9, %X%, %Y%, RGB
+        }
+
+        if (color9 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode9:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto savepoint9
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+if !(Zentrale10 = "")
+{
+    10:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale10%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color10 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color10, %X%, %Y%, RGB
+        }
+
+        if (color10 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode10:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto 10
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+if !(Zentrale11 = "")
+{
+    savepoint11:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale11%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color11 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color11, %X%, %Y%, RGB
+        }
+
+        if (color11 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode11:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto savepoint11
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+if !(Zentrale12 = "")
+{
+    savepoint12:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale12%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color12 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color12, %X%, %Y%, RGB
+        }
+
+        if (color12 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode12:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto savepoint12
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+if !(Zentrale13 = "")
+{
+    savepoint13:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale13%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color13 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color13, %X%, %Y%, RGB
+        }
+
+        if (color13 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode13:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto savepoint13
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+if !(Zentrale14 = "")
+{
+    savepoint14:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale14%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color14 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color14, %X%, %Y%, RGB
+        }
+
+        if (color14 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode14:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto savepoint14
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+if !(Zentrale15 = "")
+{
+    savepoint15:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale15%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color15 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color15, %X%, %Y%, RGB
+        }
+
+        if (color15 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode15:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto savepoint15
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+if !(Zentrale16 = "")
+{
+    savepoint16:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale16%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color16 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color16, %X%, %Y%, RGB
+        }
+
+        if (color16 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode16:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto savepoint16
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+if !(Zentrale17 = "")
+{
+    savepoint17:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale17%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color17 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color17, %X%, %Y%, RGB
+        }
+
+        if (color17 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode17:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto savepoint17
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+if !(Zentrale18 = "")
+{
+    savepoint18:
+    ;Check if My Jablotron is opened
+    if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY")
+    {
+        WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+
+        MouseMove, 1082, 420
+        MouseClick, left
+        Send %Zentrale18%
+        Sleep, 1000
+        SendInput, {Enter}
+
+        ;............................................................
+        ;Wait for key
+        ;............................................................
+
+        While, !(color18 = 0x67AC03)
+        {
+            MouseMove, 1048, 655
+            MouseGetPos X, Y
+            PixelGetColor color18, %X%, %Y%, RGB
+        }
+
+        if (color18 = 0x67AC03)
+        {
+
+        
+            ;............................................................
+            ;Kopieren --> und in var einfügen
+            ;............................................................
+
+            
+            
+            WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
+            MouseMove, 1261, 635
+            MouseClick, left
+            MouseClick, left
+            Send ^c
+            ClipWait
+            Zentralencode18:=clipboard
+            Sleep, 300
+            Mousemove 1559, 581
+            Mouseclick left
+            Sleep, 400
+        }
+    }        
+    Else
+    {
+        MsgBox, 4, Fehler, My Company Website nicht Aktiv! | Soll My Company neugestartet werden? -Script macht danach weiter!
+        IfMsgBox, Yes
+        {
+          Run, https://jablonet.net/installer/snlang.php
+          msgbox, 0, Warten bis Jablonet gestartet ist... 6sec
+          Sleep, 6000
+          goto savepoint18
+        }
+        IfMsgBox, No
+        {
+            MsgBox, Hinweis, 0, Jablonet wurde nicht gestartet | Script immer noch aktiv!
+            return
+        }
+    }
+}
+
+
+
+
 
 
 
@@ -637,13 +1357,18 @@ if !(Zentrale8 = "")
 ;PRINT KEYS
 ;********************************************************************************************************************************
 ;********************************************************************************************************************************
+;********************************************************************************************************************************
 
 
 
 
+if !(Zentralencode1 = "")
+{
+    savepoint2_1:
+    msgbox,4, Drucken, Sollen die Codes gedruckt werden?
+}
 
-savepoint2_1:
-msgbox,4, Drucken, Sollen die Codes gedruckt werden?
+
 
 IfMsgBox, Yes
 {
@@ -690,8 +1415,14 @@ IfMsgBox, Yes
     }
 
 
-    savepoint2_2:
-    msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt
+
+    if !(Zentralencode2 = "")
+    {
+        savepoint2_2:
+        msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt
+    }
+
+
 
     if !(Zentralencode2 = "")
     {
@@ -736,8 +1467,13 @@ IfMsgBox, Yes
     
 
 
-    savepoint2_3:
-    msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt
+    if !(Zentralencode3 = "")
+    {
+        savepoint2_3:
+        msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt
+    }
+
+
 
     if !(Zentralencode3 = "")
     {
@@ -782,8 +1518,13 @@ IfMsgBox, Yes
 
 
 
-    savepoint2_4:
-    msgbox,0,Zentrale4, Zentralencode 4 wird gedruckt
+    if !(Zentralencode4 = "")
+    {
+        savepoint2_4:
+        msgbox,0,Zentrale4, Zentralencode 4 wird gedruckt
+    }
+
+
 
     if !(Zentralencode4 = "")
     {
@@ -828,8 +1569,13 @@ IfMsgBox, Yes
 
 
 
-    savepoint2_5:
-    msgbox,0,Zentrale5, Zentralencode 5 wird gedruckt
+    if !(Zentralencode5 = "")
+    {
+        savepoint2_5:
+        msgbox,0,Zentrale5, Zentralencode 5 wird gedruckt
+    }
+
+
 
     if !(Zentralencode5 = "")
     {
@@ -874,8 +1620,13 @@ IfMsgBox, Yes
 
 
 
-    savepoint2_6:
-    msgbox,0,Zentrale6, Zentralencode 6 wird gedruckt
+    if !(Zentralencode6 = "")
+    {
+        savepoint2_6:
+        msgbox,0,Zentrale6, Zentralencode 6 wird gedruckt
+    }
+
+
 
     if !(Zentralencode6 = "")
     {
@@ -920,8 +1671,13 @@ IfMsgBox, Yes
 
 
 
-    savepoint2_7:
-    msgbox,0,Zentrale7, Zentralencode 7 wird gedruckt
+    if !(Zentralencode7 = "")
+    {
+        savepoint2_7:
+        msgbox,0,Zentrale7, Zentralencode 7 wird gedruckt
+    }
+
+
 
     if !(Zentralencode7 = "")
     {
@@ -966,8 +1722,13 @@ IfMsgBox, Yes
 
 
 
-    savepoint2_8:
-    msgbox,0,Zentrale8, Zentralencode 8 wird gedruckt
+    if !(Zentralencode8 = "")
+    {
+        savepoint2_8:
+        msgbox,0,Zentrale8, Zentralencode 8 wird gedruckt
+    }
+
+
 
     if !(Zentralencode8 = "")
     {
@@ -1016,11 +1777,6 @@ IfMsgBox, Yes
 
 
 
-
-
-
-
-
 ;Print
 ;Send !d
 ;Send d
@@ -1037,20 +1793,6 @@ IfMsgBox, Yes
 WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY
 MouseMove, 1082, 420
 MouseClick, left
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
