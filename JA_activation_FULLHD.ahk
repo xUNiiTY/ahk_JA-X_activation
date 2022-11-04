@@ -1,13 +1,7 @@
 ;********************************************************************************************************************************
-;Script FULLHD Beta Version  0.1.0 | 04.11.22
+;Script FULLHD Beta Version  0.2.0 | 04.11.22
 ;********************************************************************************************************************************
-
-;wenn codes gedruckt werden lehre überspringen
-;anpassen an FULLHD
-;Anpassen an 18 Zentralen!!!! f that
 ;
-;Farbe 67AC02
-;Koordinate 719 645
 ;
 ;.................................................................................................................................
 ;Startup check
@@ -145,14 +139,14 @@ if !(Zentrale1 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color1 = 0x67AC02)
+        While, !(color1 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color1, %X%, %Y%, RGB
         }
 
-        if (color1 = 0x67AC02)
+        if (color1 = 0xFDEAB2)
         {
 
         
@@ -212,14 +206,14 @@ if !(Zentrale2 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color2 = 0x67AC02)
+        While, !(color2 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color2, %X%, %Y%, RGB
         }
 
-        if (color2 = 0x67AC02)
+        if (color2 = 0xFDEAB2)
         {
 
         
@@ -280,14 +274,14 @@ if !(Zentrale3 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color3 = 0x67AC02)
+        While, !(color3 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color3, %X%, %Y%, RGB
         }
 
-        if (color3 = 0x67AC02)
+        if (color3 = 0xFDEAB2)
         {
 
         
@@ -348,14 +342,14 @@ if !(Zentrale4 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color4 = 0x67AC02)
+        While, !(color4 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color4, %X%, %Y%, RGB
         }
 
-        if (color4 = 0x67AC02)
+        if (color4 = 0xFDEAB2)
         {
 
         
@@ -416,14 +410,14 @@ if !(Zentrale5 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color5 = 0x67AC02)
+        While, !(color5 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color5, %X%, %Y%, RGB
         }
 
-        if (color5 = 0x67AC02)
+        if (color5 = 0xFDEAB2)
         {
 
         
@@ -484,14 +478,14 @@ if !(Zentrale6 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color6 = 0x67AC02)
+        While, !(color6 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color6, %X%, %Y%, RGB
         }
 
-        if (color6 = 0x67AC02)
+        if (color6 = 0xFDEAB2)
         {
 
         
@@ -552,14 +546,14 @@ if !(Zentrale7 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color7 = 0x67AC02)
+        While, !(color7 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color7, %X%, %Y%, RGB
         }
 
-        if (color7 = 0x67AC02)
+        if (color7 = 0xFDEAB2)
         {
 
         
@@ -620,14 +614,14 @@ if !(Zentrale8 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color8 = 0x67AC02)
+        While, !(color8 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color8, %X%, %Y%, RGB
         }
 
-        if (color8 = 0x67AC02)
+        if (color8 = 0xFDEAB2)
         {
 
         
@@ -688,14 +682,14 @@ if !(Zentrale9 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color9 = 0x67AC02)
+        While, !(color9 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color9, %X%, %Y%, RGB
         }
 
-        if (color9 = 0x67AC02)
+        if (color9 = 0xFDEAB2)
         {
 
         
@@ -756,14 +750,14 @@ if !(Zentrale10 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color10 = 0x67AC02)
+        While, !(color10 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color10, %X%, %Y%, RGB
         }
 
-        if (color10 = 0x67AC02)
+        if (color10 = 0xFDEAB2)
         {
 
         
@@ -824,14 +818,14 @@ if !(Zentrale11 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color11 = 0x67AC02)
+        While, !(color11 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color11, %X%, %Y%, RGB
         }
 
-        if (color11 = 0x67AC02)
+        if (color11 = 0xFDEAB2)
         {
 
         
@@ -892,14 +886,14 @@ if !(Zentrale12 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color12 = 0x67AC02)
+        While, !(color12 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color12, %X%, %Y%, RGB
         }
 
-        if (color12 = 0x67AC02)
+        if (color12 = 0xFDEAB2)
         {
 
         
@@ -960,14 +954,14 @@ if !(Zentrale13 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color13 = 0x67AC02)
+        While, !(color13 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color13, %X%, %Y%, RGB
         }
 
-        if (color13 = 0x67AC02)
+        if (color13 = 0xFDEAB2)
         {
 
         
@@ -1028,14 +1022,14 @@ if !(Zentrale14 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color14 = 0x67AC02)
+        While, !(color14 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color14, %X%, %Y%, RGB
         }
 
-        if (color14 = 0x67AC02)
+        if (color14 = 0xFDEAB2)
         {
 
         
@@ -1096,14 +1090,14 @@ if !(Zentrale15 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color15 = 0x67AC02)
+        While, !(color15 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color15, %X%, %Y%, RGB
         }
 
-        if (color15 = 0x67AC02)
+        if (color15 = 0xFDEAB2)
         {
 
         
@@ -1164,14 +1158,14 @@ if !(Zentrale16 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color16 = 0x67AC02)
+        While, !(color16 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color16, %X%, %Y%, RGB
         }
 
-        if (color16 = 0x67AC02)
+        if (color16 = 0xFDEAB2)
         {
 
         
@@ -1232,14 +1226,14 @@ if !(Zentrale17 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color17 = 0x67AC02)
+        While, !(color17 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color17, %X%, %Y%, RGB
         }
 
-        if (color17 = 0x67AC02)
+        if (color17 = 0xFDEAB2)
         {
 
         
@@ -1300,14 +1294,14 @@ if !(Zentrale18 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color18 = 0x67AC02)
+        While, !(color18 = 0xFDEAB2)
         {
-            MouseMove, 719, 645
+            MouseMove, 1064, 634
             MouseGetPos X, Y
             PixelGetColor color18, %X%, %Y%, RGB
         }
 
-        if (color18 = 0x67AC02)
+        if (color18 = 0xFDEAB2)
         {
 
         
@@ -2290,7 +2284,7 @@ IfMsgBox, Yes
     }
 }
 
-
+Reload
 
 
 
