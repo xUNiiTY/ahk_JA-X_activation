@@ -2,7 +2,14 @@
 ;Script Beta Version 0.3.0 | 03.11.22
 ;********************************************************************************************************************************
 
-
+;color ist ne variable 
+;wenn codes gedruckt werden lehre überspringen
+;
+;
+;
+;
+;
+;
 ;.................................................................................................................................
 ;Startup check
 ;.................................................................................................................................
@@ -96,14 +103,14 @@ if !(Zentrale1 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color = 0x67AC03)
+        While, !(color1 = 0x67AC03)
         {
             MouseMove, 1048, 655
             MouseGetPos X, Y
-            PixelGetColor Color, %X%, %Y%, RGB
+            PixelGetColor color1, %X%, %Y%, RGB
         }
 
-        if (color = 0x67AC03)
+        if (color1 = 0x67AC03)
         {
 
         
@@ -163,14 +170,14 @@ if !(Zentrale2 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color = 0x67AC03)
+        While, !(color2 = 0x67AC03)
         {
             MouseMove, 1048, 655
             MouseGetPos X, Y
-            PixelGetColor Color, %X%, %Y%, RGB
+            PixelGetColor color2, %X%, %Y%, RGB
         }
 
-        if (color = 0x67AC03)
+        if (color2 = 0x67AC03)
         {
 
         
@@ -231,14 +238,14 @@ if !(Zentrale3 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color = 0x67AC03)
+        While, !(color3 = 0x67AC03)
         {
             MouseMove, 1048, 655
             MouseGetPos X, Y
-            PixelGetColor Color, %X%, %Y%, RGB
+            PixelGetColor color3, %X%, %Y%, RGB
         }
 
-        if (color = 0x67AC03)
+        if (color3 = 0x67AC03)
         {
 
         
@@ -299,14 +306,14 @@ if !(Zentrale4 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color = 0x67AC03)
+        While, !(color4 = 0x67AC03)
         {
             MouseMove, 1048, 655
             MouseGetPos X, Y
-            PixelGetColor Color, %X%, %Y%, RGB
+            PixelGetColor color4, %X%, %Y%, RGB
         }
 
-        if (color = 0x67AC03)
+        if (color4 = 0x67AC03)
         {
 
         
@@ -367,14 +374,14 @@ if !(Zentrale5 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color = 0x67AC03)
+        While, !(color5 = 0x67AC03)
         {
             MouseMove, 1048, 655
             MouseGetPos X, Y
-            PixelGetColor Color, %X%, %Y%, RGB
+            PixelGetColor color5, %X%, %Y%, RGB
         }
 
-        if (color = 0x67AC03)
+        if (color5 = 0x67AC03)
         {
 
         
@@ -435,14 +442,14 @@ if !(Zentrale6 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color = 0x67AC03)
+        While, !(color6 = 0x67AC03)
         {
             MouseMove, 1048, 655
             MouseGetPos X, Y
-            PixelGetColor Color, %X%, %Y%, RGB
+            PixelGetColor color6, %X%, %Y%, RGB
         }
 
-        if (color = 0x67AC03)
+        if (color6 = 0x67AC03)
         {
 
         
@@ -503,14 +510,14 @@ if !(Zentrale7 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color = 0x67AC03)
+        While, !(color7 = 0x67AC03)
         {
             MouseMove, 1048, 655
             MouseGetPos X, Y
-            PixelGetColor Color, %X%, %Y%, RGB
+            PixelGetColor color7, %X%, %Y%, RGB
         }
 
-        if (color = 0x67AC03)
+        if (color7 = 0x67AC03)
         {
 
         
@@ -571,14 +578,14 @@ if !(Zentrale8 = "")
         ;Wait for key
         ;............................................................
 
-        While, !(color = 0x67AC03)
+        While, !(color8 = 0x67AC03)
         {
             MouseMove, 1048, 655
             MouseGetPos X, Y
-            PixelGetColor Color, %X%, %Y%, RGB
+            PixelGetColor color8, %X%, %Y%, RGB
         }
 
-        if (color = 0x67AC03)
+        if (color8 = 0x67AC03)
         {
 
         
