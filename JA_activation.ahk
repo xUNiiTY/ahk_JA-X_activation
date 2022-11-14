@@ -1,5 +1,5 @@
 ;********************************************************************************************************************************
-;Script Beta Version 0.4.0 | 03.11.22
+;Script Beta Version 0.5.0 | 14.11.22
 ;********************************************************************************************************************************
 ;Für WQHD Monitore
 ;Firefox
@@ -1357,10 +1357,9 @@ if !(Zentrale18 = "")
 
 
 
-
+savepoint2_1:
 if !(Zentralencode1 = "")
 {
-    savepoint2_1:
     msgbox,4, Drucken, Sollen die Codes gedruckt werden?
 }
 
@@ -1412,9 +1411,9 @@ IfMsgBox, Yes
 
 
 
+    savepoint2_2:
     if !(Zentralencode2 = "")
     {
-        savepoint2_2:
         msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt
     }
 
@@ -1463,9 +1462,9 @@ IfMsgBox, Yes
     
 
 
+    savepoint2_3:
     if !(Zentralencode3 = "")
     {
-        savepoint2_3:
         msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt
     }
 
@@ -1514,9 +1513,9 @@ IfMsgBox, Yes
 
 
 
+    savepoint2_4:
     if !(Zentralencode4 = "")
     {
-        savepoint2_4:
         msgbox,0,Zentrale4, Zentralencode 4 wird gedruckt
     }
 
@@ -1565,9 +1564,9 @@ IfMsgBox, Yes
 
 
 
+    savepoint2_5:
     if !(Zentralencode5 = "")
     {
-        savepoint2_5:
         msgbox,0,Zentrale5, Zentralencode 5 wird gedruckt
     }
 
@@ -1616,9 +1615,9 @@ IfMsgBox, Yes
 
 
 
+    savepoint2_6:
     if !(Zentralencode6 = "")
     {
-        savepoint2_6:
         msgbox,0,Zentrale6, Zentralencode 6 wird gedruckt
     }
 
@@ -1667,9 +1666,9 @@ IfMsgBox, Yes
 
 
 
+    savepoint2_7:
     if !(Zentralencode7 = "")
     {
-        savepoint2_7:
         msgbox,0,Zentrale7, Zentralencode 7 wird gedruckt
     }
 
@@ -1718,9 +1717,9 @@ IfMsgBox, Yes
 
 
 
+    savepoint2_8:
     if !(Zentralencode8 = "")
     {
-        savepoint2_8:
         msgbox,0,Zentrale8, Zentralencode 8 wird gedruckt
     }
 
@@ -1772,9 +1771,9 @@ IfMsgBox, Yes
 ;*******************************************************************************************************************
 ;
 ;
+    savepoint2_9:
     if !(Zentralencode9 = "")
     {
-        savepoint2_9:
         msgbox,0,Zentrale9 Zentralencode 9 wird gedruckt
     }
 
@@ -1823,9 +1822,9 @@ IfMsgBox, Yes
     }
 
 
+    savepoint2_10:
     if !(Zentralencode10 = "")
     {
-        savepoint2_10:
         msgbox,0,Zentrale9 Zentralencode 10 wird gedruckt
     }
 
@@ -1874,9 +1873,9 @@ IfMsgBox, Yes
     }
 
 
+    savepoint2_11:
     if !(Zentralencode11 = "")
     {
-        savepoint2_11:
         msgbox,0,Zentrale9 Zentralencode 11 wird gedruckt
     }
 
@@ -1925,9 +1924,9 @@ IfMsgBox, Yes
     }
 
 
+    savepoint2_12:
     if !(Zentralencode12 = "")
     {
-        savepoint2_12:
         msgbox,0,Zentrale9 Zentralencode 12 wird gedruckt
     }
 
@@ -1976,9 +1975,9 @@ IfMsgBox, Yes
     }
 
 
+    savepoint2_13:
     if !(Zentralencode13 = "")
     {
-        savepoint2_13:
         msgbox,0,Zentrale9 Zentralencode 13 wird gedruckt
     }
 
@@ -2027,9 +2026,9 @@ IfMsgBox, Yes
     }
 
 
+    savepoint2_14:
     if !(Zentralencode14 = "")
     {
-        savepoint2_14:
         msgbox,0,Zentrale14 Zentralencode 14 wird gedruckt
     }
 
@@ -2078,9 +2077,9 @@ IfMsgBox, Yes
     }
 
 
+    savepoint2_15:
     if !(Zentralencode15 = "")
     {
-        savepoint2_15:
         msgbox,0,Zentrale15 Zentralencode 15 wird gedruckt
     }
 
@@ -2129,9 +2128,9 @@ IfMsgBox, Yes
     }
 
 
+    savepoint2_16:
     if !(Zentralencode16 = "")
     {
-        savepoint2_16:
         msgbox,0,Zentrale16 Zentralencode 16 wird gedruckt
     }
 
@@ -2180,9 +2179,9 @@ IfMsgBox, Yes
     }
 
 
+    savepoint2_17:
     if !(Zentralencode17 = "")
     {
-        savepoint2_17:
         msgbox,0,Zentrale17 Zentralencode 17 wird gedruckt
     }
 
@@ -2231,9 +2230,9 @@ IfMsgBox, Yes
     }
 
 
+    savepoint2_18:
     if !(Zentralencode18 = "")
     {
-        savepoint2_18:
         msgbox,0,Zentrale18 Zentralencode 18 wird gedruckt
     }
 
