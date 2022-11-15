@@ -1,5 +1,5 @@
 ;********************************************************************************************************************************
-;Script FULLHD Beta Version  0.5.0 | 14.11.22
+;Script FULLHD Beta Version  0.5.0 | 15.11.22
 ;********************************************************************************************************************************
 ;Für Full HD Monitore
 ;Chrome
@@ -128,7 +128,6 @@ if !(Zentrale1 = "")
     if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome")
     {
         WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-
         Sleep, 500
         MouseMove, 762, 406
         MouseClick, left
@@ -197,7 +196,6 @@ if !(Zentrale2 = "")
     if Winexist("MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome")
     {
         WinActivate, MyJABLOTRON Web Self Service - MyJABLOTRON - MyCOMPANY - Google Chrome
-
         MouseMove, 762, 406
         MouseClick, left
         Send %Zentrale2%
@@ -1366,7 +1364,7 @@ Sleep, 2000
 savepoint2_1:
 if !(Zentralencode1 = "")
 {
-    msgbox,4, Drucken, Sollen die Codes gedruckt werden?
+    msgbox,4, Drucken, Sollen die Codes gedruckt werden? `n %Zentralencode1%
 }
 
 
@@ -1420,7 +1418,7 @@ IfMsgBox, Yes
     savepoint2_2:
     if !(Zentralencode2 = "")
     {
-        msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt
+        msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt `n %Zentralencode2%
     }
 
 
@@ -1471,7 +1469,7 @@ IfMsgBox, Yes
     savepoint2_3:
     if !(Zentralencode3 = "")
     {
-        msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt
+        msgbox,0,Zentrale2, Zentralencode 2 wird gedruckt `n %Zentralencode3%
     }
 
 
@@ -1522,7 +1520,7 @@ IfMsgBox, Yes
     savepoint2_4:
     if !(Zentralencode4 = "")
     {
-        msgbox,0,Zentrale4, Zentralencode 4 wird gedruckt
+        msgbox,0,Zentrale4, Zentralencode 4 wird gedruckt `n %Zentralencode4%
     }
 
 
@@ -1573,7 +1571,7 @@ IfMsgBox, Yes
     savepoint2_5:
     if !(Zentralencode5 = "")
     {
-        msgbox,0,Zentrale5, Zentralencode 5 wird gedruckt
+        msgbox,0,Zentrale5, Zentralencode 5 wird gedruckt `n %Zentralencode5%
     }
 
 
@@ -1624,7 +1622,7 @@ IfMsgBox, Yes
     savepoint2_6:
     if !(Zentralencode6 = "")
     {
-        msgbox,0,Zentrale6, Zentralencode 6 wird gedruckt
+        msgbox,0,Zentrale6, Zentralencode 6 wird gedruckt `n %Zentralencode6%
     }
 
 
@@ -1675,7 +1673,7 @@ IfMsgBox, Yes
     savepoint2_7:
     if !(Zentralencode7 = "")
     {
-        msgbox,0,Zentrale7, Zentralencode 7 wird gedruckt
+        msgbox,0,Zentrale7, Zentralencode 7 wird gedruckt `n %Zentralencode7%
     }
 
 
@@ -1726,7 +1724,7 @@ IfMsgBox, Yes
     savepoint2_8:
     if !(Zentralencode8 = "")
     {
-        msgbox,0,Zentrale8, Zentralencode 8 wird gedruckt
+        msgbox,0,Zentrale8, Zentralencode 8 wird gedruckt `n %Zentralencode8%
     }
 
 
@@ -1778,7 +1776,7 @@ IfMsgBox, Yes
     savepoint2_9:
     if !(Zentralencode9 = "")
     {
-        msgbox,0,Zentrale9 Zentralencode 9 wird gedruckt
+        msgbox,0,Zentrale9 Zentralencode 9 wird gedruckt `n %Zentralencode9%
     }
 
 
@@ -1830,7 +1828,7 @@ IfMsgBox, Yes
     savepoint2_10:
     if !(Zentralencode10 = "")
     {
-        msgbox,0,Zentrale9 Zentralencode 10 wird gedruckt
+        msgbox,0,Zentrale9 Zentralencode 10 wird gedruckt `n %Zentralencode10%
     }
 
 
@@ -1882,7 +1880,7 @@ IfMsgBox, Yes
     savepoint2_11:
     if !(Zentralencode11 = "")
     {
-        msgbox,0,Zentrale9 Zentralencode 11 wird gedruckt
+        msgbox,0,Zentrale9 Zentralencode 11 wird gedruckt `n %Zentralencode11%
     }
 
 
@@ -1934,7 +1932,7 @@ IfMsgBox, Yes
     savepoint2_12:
     if !(Zentralencode12 = "")
     {
-        msgbox,0,Zentrale9 Zentralencode 12 wird gedruckt
+        msgbox,0,Zentrale9 Zentralencode 12 wird gedruckt `n %Zentralencode12%
     }
 
 
@@ -1986,7 +1984,7 @@ IfMsgBox, Yes
     savepoint2_13:
     if !(Zentralencode13 = "")
     {
-        msgbox,0,Zentrale9 Zentralencode 13 wird gedruckt
+        msgbox,0,Zentrale9 Zentralencode 13 wird gedruckt `n %Zentralencode13%
     }
 
 
@@ -2038,7 +2036,7 @@ IfMsgBox, Yes
     savepoint2_14:
     if !(Zentralencode14 = "")
     {
-        msgbox,0,Zentrale14 Zentralencode 14 wird gedruckt
+        msgbox,0,Zentrale14 Zentralencode 14 wird gedruckt `n %Zentralencode14%
     }
 
 
@@ -2090,7 +2088,7 @@ IfMsgBox, Yes
     savepoint2_15:
     if !(Zentralencode15 = "")
     {
-        msgbox,0,Zentrale15 Zentralencode 15 wird gedruckt
+        msgbox,0,Zentrale15 Zentralencode 15 wird gedruckt `n %Zentralencode15%
     }
 
 
@@ -2142,7 +2140,7 @@ IfMsgBox, Yes
     savepoint2_16:
     if !(Zentralencode16 = "")
     {
-        msgbox,0,Zentrale16 Zentralencode 16 wird gedruckt
+        msgbox,0,Zentrale16 Zentralencode 16 wird gedruckt `n %Zentralencode16%
     }
 
 
@@ -2194,7 +2192,7 @@ IfMsgBox, Yes
     savepoint2_17:
     if !(Zentralencode17 = "")
     {
-        msgbox,0,Zentrale17 Zentralencode 17 wird gedruckt
+        msgbox,0,Zentrale17 Zentralencode 17 wird gedruckt `n %Zentralencode17%
     }
 
 
@@ -2246,7 +2244,7 @@ IfMsgBox, Yes
     savepoint2_18:
     if !(Zentralencode18 = "")
     {
-        msgbox,0,Zentrale18 Zentralencode 18 wird gedruckt
+        msgbox,0,Zentrale18 Zentralencode 18 wird gedruckt `n %Zentralencode18%
     }
 
 
